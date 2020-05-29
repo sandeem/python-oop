@@ -1,3 +1,10 @@
+# Banking System project
+# 1) Ask the user if they want to create a new savings account or access an existing account
+# 2) For a new account, request their name and initital deposit, generate a 4 digit random number 
+# and it becomes the account number of their savings account
+# 3) For an existing account, request their name and account number to validate the user, and options
+# are given to withdraw, deposit or display their available balance
+
 from abc import ABCMeta, abstractmethod
 from random import randint
 
