@@ -1,4 +1,4 @@
-# Simulate a online clothing account system
+# Simulate an apparel shopping system
 # Ask the user if they want to create a new account or access an existing account 
 # If the user wanted to create an account, a 3 digit random number was assigned to the account
 # The online system will list the items and the corresponding price when requested
