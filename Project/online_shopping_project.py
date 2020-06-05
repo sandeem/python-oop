@@ -94,7 +94,7 @@ class ShoppingAccount(Account):
     # method to add new items     
     def newestOnlineOrder(self, newOnlineOrder):
         self.userAccount[self.accountNumber][1] += newOnlineOrder
-        print("Current bill: $", self.userAccount[self.accountNumber][1])
+        self.displayReceipt()
     
     # method to remove existing items    
     def removeExistingItems(self, removeItems):
@@ -102,7 +102,7 @@ class ShoppingAccount(Account):
             print("Invalid entry")
         else:
             self.userAccount[self.accountNumber][1] -= removeItems
-            print("Current bill: $", self.userAccount[self.accountNumber][1])
+            self.displayReceipt()
     
     # method to display current bill of the user        
     def displayReceipt(self):
